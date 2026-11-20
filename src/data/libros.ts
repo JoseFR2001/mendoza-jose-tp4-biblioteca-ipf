@@ -1,0 +1,122 @@
+import type { Libro } from '../types';
+
+export const LIBROS: Libro[] = [
+  {
+    isbn: '9789500426152',
+    titulo: 'Ficciones',
+    autor: 'Jorge Luis Borges',
+    anio: 1944,
+    ejemplares: 3,
+  },
+  {
+    isbn: '9788497592208',
+    titulo: 'Cien años de soledad',
+    autor: 'Gabriel García Márquez',
+    anio: 1967,
+    ejemplares: 2,
+  },
+  {
+    isbn: '9789500427487',
+    titulo: 'El Aleph',
+    autor: 'Jorge Luis Borges',
+    anio: 1949,
+    ejemplares: 0,
+  },
+  {
+    isbn: '9789875666481',
+    titulo: 'Rayuela',
+    autor: 'Julio Cortázar',
+    anio: 1963,
+    ejemplares: 0,
+  },
+  {
+    isbn: '9780132350884',
+    titulo: 'Clean Code',
+    autor: 'Robert C. Martin',
+    anio: 2008,
+    ejemplares: 0,
+  },
+  {
+    isbn: '9780135957059',
+    titulo: 'The Pragmatic Programmer',
+    autor: 'David Thomas y Andrew Hunt',
+    anio: 2019,
+    ejemplares: 2,
+  },
+  {
+    isbn: '9789500729093',
+    titulo: 'Sobre héroes y tumbas',
+    autor: 'Ernesto Sabato',
+    anio: 1961,
+    ejemplares: 1,
+  },
+  {
+    isbn: '9789500729109',
+    titulo: 'El túnel',
+    autor: 'Ernesto Sabato',
+    anio: 1948,
+    ejemplares: 4,
+  },
+  {
+    isbn: '9789871138142',
+    titulo: 'El Eternauta',
+    autor: 'Héctor Germán Oesterheld',
+    anio: 1957,
+    ejemplares: 0,
+  },
+  {
+    isbn: '9788498381498',
+    titulo: 'El Principito',
+    autor: 'Antoine de Saint-Exupéry',
+    anio: 1943,
+    ejemplares: 3,
+  },
+  {
+    isbn: '9780201633610',
+    titulo: 'Design Patterns',
+    autor: 'Erich Gamma y otros',
+    anio: 1994,
+    ejemplares: 1,
+  },
+  {
+    isbn: '9781491950357',
+    titulo: 'Building Microservices',
+    autor: 'Sam Newman',
+    anio: 2021,
+    ejemplares: 2,
+  },
+  {
+    isbn: '9789504968252',
+    titulo: 'Operación Masacre',
+    autor: 'Rodolfo Walsh',
+    anio: 1957,
+    ejemplares: 2,
+  },
+  {
+    isbn: '9789877385120',
+    titulo: 'Distancia de rescate',
+    autor: 'Samanta Schweblin',
+    anio: 2014,
+    ejemplares: 1,
+  },
+  {
+    isbn: '9780134757599',
+    titulo: 'Refactoring',
+    autor: 'Martin Fowler',
+    anio: 2018,
+    ejemplares: 2,
+  },
+  {
+    isbn: '9789875806221',
+    titulo: 'La invención de Morel',
+    autor: 'Adolfo Bioy Casares',
+    anio: 1940,
+    ejemplares: 3,
+  },
+];
+
+export const LISTAS_ESPERA_INICIALES: Record<string, string[]> = {
+  '9789500427487': ['Lucía Fernández', 'Martín Gómez'],
+  '9780132350884': ['Camila Rojas'],
+  '9789871138142': ['Sofía Benítez', 'Diego Paredes'],
+};
