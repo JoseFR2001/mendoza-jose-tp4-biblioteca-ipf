@@ -238,7 +238,7 @@ export default function CatalogoScreen() {
                   horizontal
                   showsHorizontalScrollIndicator={false}
                   data={ultimosRecientes}
-                  keyExtractor={(item) => item.isbn}
+                  keyExtractor={(item, index) => `${item.isbn}-${index}`}
                   renderItem={renderizarReciente}
                   contentContainerStyle={estilos.listaRecientes}
                 />
